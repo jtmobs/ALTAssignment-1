@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(243, 249, 248);
+  }
+  header{
+    background-color: rgb(106, 111, 245);
+    padding:3% 10%;
+  }
+    nav{
+      display:flex;
+      justify-content:space-between;
+    }
+    
+    .logo {
+      width: auto;
+    }
+   
+    .navbar {
+      display:flex;
+      justify-content:space-between;
+    }
+    .navbar li {
+      list-style:none;
+      margin-right:2em;
+      padding:0.5em 1em;
+      display: block;
+      color: white;
+      background-color: rgb(106, 111, 245);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    a{
+      text-decoration:none;
+      color: black;
+      font-size:20px;
+      font-weight:500;
+    }
+    p{
+      text-decoration:none;
+      color: black;
+      font-size:20px;
+      font-weight:500;
+    }
+     
+    li a:hover {
+      color: orange;
+    }
+  
+    .picture-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      }
+  
+    .aboutme-container{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
